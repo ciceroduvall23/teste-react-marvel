@@ -1,0 +1,152 @@
+.container-slide
+{
+    background-color: #1e1e1e;
+    width: 100%;
+    border-style: groove;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    z-index: 2;
+    border-color: red;
+}
+
+.carouselTwo
+{
+    color: white;
+    position: relative;
+   left: -29%;
+   margin-top: 213px;
+   z-index: 5;
+}
+
+h2
+{
+    font-size: 42px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 37px;
+    font-family: cursive;
+}
+
+.form
+{
+    width: 240px;
+}
+.has-text-centered
+{
+    color: #fd0200;
+}
+.text-link
+{
+    color: #fd0200;
+}
+.text-link:hover
+{
+    color: #d32323;
+}
+.is-primary
+{
+    
+    background-color: #fd0200;
+}
+
+
+.CardImg
+{
+    width: 30%;
+    width: 30%;
+}
+.card-person
+{
+
+    position: relative;
+    left: 119px;
+    top: 13px; 
+    border-radius: 10%;
+}
+.Card-Movies
+{
+width:22em;
+justify-content: center;
+align-items: center;
+margin: 0;
+left: 23%;
+margin-right: -50%;
+z-index: 4;
+margin-top: 130px;
+border-radius: 40px 40px 0px 0px;
+
+}
+
+.Card-body
+{
+   
+    background: linear-gradient(180deg, rgba(253,2,0,0.8015581232492998) 29%, rgba(253,2,0,0.7371323529411764) 36%, rgba(253, 0, 0, 0.445) 49%);      color: white;
+     margin-top: -256px;
+      border-radius: 40px 40px 0px 0px;
+      height: 16em;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 960px)
+{
+
+    .grid
+    {
+    width:22em;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    left: 23%;
+    margin-right: -50%;
+    z-index: 4;
+    margin-top: 130px;
+    border-radius: 40px 40px 0px 0px;
+    background: #16161600;
+    position: relative;
+    border-radius: 7.5rem !important;
+    left: 18% !important;
+    
+    
+    }
+
+    
+    .grid
+    {
+  
+    left: 18% !important;
+    
+    
+    }
+
+}
+
+@media only screen and (max-width: 960px) and (min-width: 670px)
+{
+
+    .grid
+    {
+  
+    left: 28% !important;
+    
+    
+    }
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px)
+{
+
+    .grid
+    {
+  
+    left: 15% !important;
+    
+    
+    }
+
+}
+
+
+
+
+ 

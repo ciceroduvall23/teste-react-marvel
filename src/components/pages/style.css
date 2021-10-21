@@ -1,0 +1,321 @@
+section
+{
+ 
+   width: 100%;
+}
+.login{
+
+    height: 1em;
+}
+
+.container-slide
+{
+    background-color: #1e1e1e;
+    width: 100%;
+    border-style: groove;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    z-index: 2;
+    border-color: red;
+    top: 86px;
+    height: 47em;
+}
+
+.card {
+    position: relative;
+    border-radius: 7.5rem !important;
+    left: 18% !important;
+   
+}
+.logo-Home
+{
+    margin: 0;
+    width: 57em;
+    position: relative;
+    top: 136px;
+}
+h2
+{
+
+    font-size: 42px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 37px;
+    font-family: cursive;
+    left: -1%;
+}
+.logo-password
+{
+    margin: 0;
+    width: 57em;
+    position: relative;
+    top: 136px;
+}
+
+.none
+{ 
+    display: none;
+   
+}
+.button-logout
+{
+    z-index: 4;
+    position: absolute;
+    left: 94%;
+    font-family: -webkit-body;
+    font-size: 24px;
+    background-color: var(--feedback-secondary-color);
+    border: #6495ed00;
+    color: #ffff;
+    top: 8px;
+   
+}
+.carouselTwo
+{
+    color: white;
+    position: relative;
+   left: -29%;
+   margin-top: 213px;
+   z-index: 5;
+}
+
+.senha
+{
+    z-index: 5;
+    height: 2em;
+
+}
+.section-success
+{   
+    background-color: yellow;
+    z-index: 5;
+    margin-top: 0px;
+}
+.container-singIn
+{
+    position: absolute;
+    left: 0%;
+    top: -207px;
+}
+.container-singUp
+{
+    position: absolute;
+    left: 0%;
+    top: -207px;
+}
+
+.container-password {
+    position: absolute;
+    left: 0%;
+    top: -207px;
+
+}
+.form
+{
+    width: 240px;
+}
+.has-text-centered {
+    color: #fd0200;
+    top: -37px;
+}
+.text-link
+{
+    color: #fd0200;
+}
+.text-link:hover
+{
+    color: #fd0200;
+}
+.is-primary
+{
+    
+    background-color: #fd0200;
+}
+
+Button .re
+{ 
+    width: 240px;
+    margin-top: 20px;
+    background-color: #fd0200;
+
+}
+.forgot-password
+{
+    color: #ffffff;
+    text-decoration-line: underline;
+    position: relative;
+    left: 119px;
+    top: 13px;
+}
+.forgot-password:hover
+{
+    color: #ffffff;
+    text-decoration-line: underline;
+}
+
+
+.CardTwo
+{
+
+    border-radius: 25px; 
+}
+.card-person
+{
+
+    position: relative;
+    left: 119px;
+    top: 13px; 
+    border-radius: 10%;
+}
+.grid
+{
+width:22em;
+justify-content: center;
+align-items: center;
+margin: 0;
+left: 23%;
+margin-right: -50%;
+z-index: 4;
+margin-top: 130px;
+border-radius: 40px 40px 0px 0px;
+background: #16161600;
+position: relative;
+border-radius: 7.5rem !important;
+left: 18% !important;
+
+
+}
+
+
+.title-h1
+{
+    color: #fff;
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: 0;
+    text-transform: none;
+    text-align: center;
+    transform: translate(10px, 204px);
+    z-index: 0;
+}
+.hellow
+{
+    z-index: 2;
+    position: relative;
+    left: 85%;
+    text-decoration: underline;
+    top: -153px;
+    font-family: -webkit-body;
+    color: #fff;
+    font-size: 22px; 
+}
+.title-dashboard
+{
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-transform: none;
+    text-align: center;
+    transform: translate(10px, 214px);
+    z-index: 0;
+}
+.button-dashboard
+{
+    border-radius: 10px;
+    position: absolute;
+    top: 459px;
+    height: 46px;
+    width: 193px;
+    left: 44%;
+    text-align: center;
+    padding-left: 0;
+    min-width: 0;
+    overflow: hidden;
+    font-size: 15px;
+    font-size: .9375rem;
+    line-height: 15px;
+    line-height: .9375rem;
+    letter-spacing: .1px;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+    background-color: #27282a;
+    color: #ffff;
+
+}
+
+.Card-body
+{
+   
+    background: linear-gradient(180deg, rgba(253,2,0,0.8015581232492998) 29%, rgba(253,2,0,0.7371323529411764) 36%, rgba(253, 0, 0, 0.445) 49%);      color: white;
+     margin-top: -256px;
+      border-radius: 40px 40px 0px 0px;
+      height: 16em;
+}
+.button-card
+{
+    border: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    position: relative;
+    left: 93px;
+    font-size: 21px;
+    top: 14px;
+    background: rgba(0, 0, 0, 0)
+
+}
+.menu-Navbar
+{
+    margin-top: -981px;
+}
+
+
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 250ms ease-in;
+  }
+  .li :hover{
+  color: #ffffff;
+
+  }
+
+  .navbar-container
+  {
+
+   background-color: black;
+   width: 103%;
+   height: 4em;
+  }
+  .button-navbar
+  {
+   
+    background-color: #e6646500;
+    color: white;
+    border: #00ffff00;
+    z-index: 4;
+    position: relative;
+    left: 33%;
+    top: 16px;
+    font-size: 20px;
+    font-family: -webkit-body;
+    padding: 0 41px;
+   
+
+  }
+  .button-navbar:hover
+  {
+    color: rgb(226, 50, 19);  
+    z-index: 4;
+
+  }
+ 

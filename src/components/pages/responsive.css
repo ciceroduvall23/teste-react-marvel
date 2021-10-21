@@ -1,0 +1,282 @@
+@media only screen and (max-width: 1140px) and (min-width: 500px) {
+    .container-slide {
+        background-color: #1e1e1e;
+        width: 100%;
+        border-style: groove;
+        border-radius: 20px 20px 20px 20px;
+        position: relative;
+        top: 120px;
+        z-index: 2;
+        border-color: red;
+    }
+    .navbar-container {
+        background-color: black;
+        width: 107%;
+        height: 7em;
+    }
+    .button-navbar {
+        background-color: #00000000;
+        color: white;
+        border: #00ffff00;
+        z-index: 4;
+        position: relative;
+        left: 20%;
+        top: 66px;
+        font-size: 20px;
+        font-family: -webkit-body;
+        padding: 0 17px;
+    }
+
+    .button-logout {
+        z-index: 4;
+        position: absolute;
+        left: 84%;
+        font-family: -webkit-body;
+        font-size: 24px;
+        background-color: var(--feedback-secondary-color);
+        border: #6495ed00;
+        color: #ffff;
+        top: 5px;
+    }
+.button-dashboard
+{
+    
+    position: absolute;
+    top: 549px;
+    height: 46px;
+    width: 193px;
+    left: 35%;
+    cursor: pointer;
+    background-color: #27282a;
+    color: #ffff;
+
+}
+
+
+}
+
+@media only screen and (max-width: 1140px) and (min-width: 500px) {
+    .hellow {
+        z-index: 2;
+        position: absolute;
+        left: 41%;
+        top: 14px;
+        font-family: -webkit-body;
+        color: #fff;
+        font-size: 22px;
+    }
+}
+
+
+@media only screen and (max-width: 700px) and (min-width: 500px) {
+    .has-text-centered {
+        color: #fd0200;
+        top: -37px;
+    }
+    .container-singIn
+{
+    position: absolute;
+    left: 0%;
+    top: -30px;
+}
+
+.container-singUp
+{
+    position: absolute;
+    left: 0%;
+    top: -30px;
+}
+.container-password {
+    position: absolute;
+    left: 0%;
+    top: -30px;
+
+}
+
+.logo-Home
+{
+    margin: 0;
+    width: 57em;
+    position: relative;
+    top: 36px;
+}
+
+.logo-password
+{
+    margin: 0;
+    width: 57em;
+    position: relative;
+    top: 36px;
+}
+
+
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+
+ 
+    .navbar-container {
+        background-color: black;
+        width: 107%;
+        height: 7em;
+    }
+    .hellow {
+        z-index: 2;
+        position: absolute;
+        left: 41%;
+        top: 14px;
+        font-family: -webkit-body;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .button-logout {
+        z-index: 4;
+        position: absolute;
+        left: 84%;
+        font-family: -webkit-body;
+        font-size: 24px;
+        background-color: var(--feedback-secondary-color);
+        border: #6495ed00;
+        color: #ffff;
+        top: 8px;
+    }
+
+    .button-navbar {
+        background-color: #00000000;
+        color: white;
+        border: #00ffff00;
+        z-index: 4;
+        position: relative;
+        left: 12%;
+        top: 58px;
+        font-size: 20px;
+        font-family: -webkit-body;
+        padding: 0 11px;
+    }
+
+    .container-singIn
+{
+    position: absolute;
+    left: 0%;
+    top: -30px;
+}
+.container-singUp
+{
+    position: absolute;
+    left: 0%;
+    top: -30px;
+}
+.container-password {
+    position: absolute;
+    left: 0%;
+    top: -30px;
+
+}
+
+.logo-Home
+{
+    margin: 0;
+    width: auto;
+    position: relative;
+    top: 23px;
+}
+
+.logo-password
+{
+    margin: 0;
+    width: 57em;
+    position: relative;
+    top: 23px;
+}
+.button-dashboard
+{
+    
+    position: absolute;
+    top: 549px;
+    height: 46px;
+    width: 193px;
+    left: 30%;
+    cursor: pointer;
+    background-color: #27282a;
+    color: #ffff;
+
+}
+
+
+.grid {
+    width: 18em;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-right: -50%;
+    z-index: 4;
+    margin-top: 96px;
+    background: #16161600;
+}
+
+.button-card {
+    border: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    position: relative;
+    left: 60PX;
+    font-size: 21px;
+    top: 14px;
+    background: rgba(0, 0, 0, 0);
+}
+
+
+}
+@media only screen and (max-width: 400px) and (min-width: 300px)
+{
+
+    .button-navbar {
+        background-color: #00000000;
+        color: white;
+        border: #00ffff00;
+        z-index: 4;
+        position: relative;
+        left: 3%;
+        top: 58px;
+        font-size: 20px;
+        font-family: -webkit-body;
+        padding: 0 11px;
+    }
+
+    .logo-header {
+        border-radius: 24px;
+        width: 30em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        position: absolute;
+        top: -78px;
+        left: -133px;
+        margin-right: -50%;
+        z-index: 4;
+    }
+
+    .button-dashboard {
+        position: absolute;
+        top: 608px;
+        height: 46px;
+        width: 193px;
+        left: 28%;
+        cursor: pointer;
+        background-color: #27282a;
+        color: #ffff;
+    }
+
+    .button-card {
+        border: rgba(255, 255, 255, 0);
+        color: #ffffff;
+        position: relative;
+        left: 60PX;
+        font-size: 21px;
+        top: 14px;
+        background: rgba(0, 0, 0, 0);
+    }
+
+}

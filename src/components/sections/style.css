@@ -1,0 +1,75 @@
+.logo-header {
+    border-radius: 24px;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: -102px;
+    left: -155px;
+    margin-right: -50%;
+    z-index: 4;
+}
+.navbar-items
+{
+    border-radius: 24px;
+    width: 38em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: -218%;
+    left: -35%;
+    margin-right: -50%;
+    z-index: 4;
+
+}
+
+
+.navbar-is-spaced-has-shadow
+{
+ 
+    
+    background-image: url("../img/vingadores-background.jpg");
+    height: 60em;
+    width: 100%;
+    background-position: 6% 2px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--mainWhite);
+    background-size: 2700px;
+    background-repeat: no-repeat;
+    background-color: #00000087;
+    z-index: 2;
+       
+}
+.gradient
+{
+
+    background: linear-gradient( 
+        91deg, rgba(0,0,0,1) 17%, rgba(0,0,0,1) 36%, rgb(0 0 0 / 67%) 49%, rgb(0 0 0 / 0%) 60%);
+        height: 60em;
+        width: 100%;
+        z-index: 2;
+        margin-top: -30px;
+
+}
+
+.buttons
+{
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    top: -157%;
+    left: -1%;
+    margin-right: -50%;
+    z-index: 4;
+
+}

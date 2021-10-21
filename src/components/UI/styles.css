@@ -1,0 +1,84 @@
+.loader-wrapper{
+  background-image: url("../img/vingadores-background.jpg");
+  height: 60em;
+  width: 100%;
+  background-position: 6% 2px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--mainWhite);
+  background-size: 2700px;
+  background-repeat: no-repeat;
+  background-color: #00000087;
+  z-index: 2;
+  }
+
+  .gradient-loader
+{
+
+  background: linear-gradient( 
+    91deg, rgba(0,0,0,1) 17%, rgba(0,0,0,1) 36%, rgb(0 0 0 / 95%) 49%, rgb(0 0 0 / 65%) 60%);
+        height: 62em;
+        width: 130%;
+        z-index: 2;
+        margin-top: -30px;
+
+}
+
+
+.loader-circle
+{
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  justify-content: center;
+  z-index: 3;
+  color: #ffff;
+
+
+}
+.logo-loader
+{
+  width: 20%;
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  right: 115%;
+  margin-right: -50%;
+  z-index: 4;
+ 
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+
+  .logo-loader
+  {
+    width: 30%;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    right: 83%;
+    margin-right: -50%;
+    z-index: 4;
+   
+  }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 500px) 
+{
+  .logo-loader
+  {
+    width: 30%;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    right: 83%;
+    margin-right: -50%;
+    z-index: 4;
+   
+  }
+
+}
+
+
+
+  

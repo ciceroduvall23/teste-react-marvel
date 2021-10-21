@@ -1,0 +1,219 @@
+.container-slide
+{
+    background-color: #1e1e1e;
+    width: 97%;
+    border-style: groove;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    z-index: 2;
+    border-color: red;
+}
+
+h2
+{
+    font-size: 42px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 37px;
+    font-family: cursive;
+}
+
+.CardTwo{
+  width: 100%;
+
+}
+.carouselTwo
+{
+    color: white;
+    position: relative;
+   left: -29%;
+   margin-top: 213px;
+   z-index: 5;
+}
+
+.CardImg
+{
+    width: 30%;
+    width: 30%;
+}
+.card-person
+{
+
+    position: relative;
+    left: 119px;
+    top: 13px; 
+    border-radius: 10%;
+}
+.Card-Movies
+{
+width:22em;
+justify-content: center;
+align-items: center;
+margin: 0;
+left: 23%;
+margin-right: -50%;
+z-index: 4;
+margin-top: 130px;
+border-radius: 40px 40px 0px 0px;
+
+}
+
+
+.title-h1
+{
+    color: #fff;
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: 0;
+    text-transform: none;
+    text-align: center;
+    transform: translate(10px, 204px);
+    z-index: 0;
+}
+
+
+.Card-body
+{
+   
+    background: linear-gradient(180deg, rgba(253,2,0,0.8015581232492998) 29%, rgba(253,2,0,0.7371323529411764) 36%, rgba(253, 0, 0, 0.445) 49%);      color: white;
+     margin-top: -256px;
+      border-radius: 40px 40px 0px 0px;
+      height: 16em;
+}
+.button-card
+{
+    border: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    position: relative;
+    left: 82px;
+    font-size: 21px;
+    top: 14px;
+    background: rgba(0, 0, 0, 0)
+}
+@media only screen and (max-width: 1140px) and (min-width: 500px)
+{
+.container-slide {
+    width: 93%;
+ 
+}
+}
+@media only screen and (max-width: 700px) and (min-width: 500px) {
+    .container-slide
+{
+    background-color: #1e1e1e;
+    width: 93%;
+  
+}
+
+
+
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+    .container-slide
+    {
+        background-color: #1e1e1e;
+        width: 93%;
+    
+    }
+    
+   
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 960px)
+{
+
+    .grid
+    {
+    width:22em;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    left: 23%;
+    margin-right: -50%;
+    z-index: 4;
+    margin-top: 130px;
+    border-radius: 40px 40px 0px 0px;
+    background: #16161600;
+    position: relative;
+    border-radius: 7.5rem !important;
+    left: 18% !important;
+    
+    
+    }
+
+    
+    .grid
+    {
+  
+    left: 18% !important;
+    
+    
+    }
+
+}
+
+@media only screen and (max-width: 960px) and (min-width: 670px)
+{
+
+    .grid
+    {
+  
+    left: 28% !important;
+    
+    
+    }
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px)
+{
+    .grid
+    {
+    left: 14% !important;
+
+    }
+
+    .button-card
+{
+    border: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    position: relative;
+    left: 58px;
+    font-size: 21px;
+    top: -9px;
+    background: rgba(0, 0, 0, 0)
+}
+}
+
+@media only screen and (max-width: 400px) and (min-width: 300px)
+{
+
+    .grid
+    {
+  
+    left: 4% !important;
+    }
+
+    .container-slide
+    {
+        background-color: #1e1e1e;
+        width: 93%;
+        height: 44em;        
+    
+    }
+    .button-card
+    {
+        border: rgba(255, 255, 255, 0);
+        color: #ffffff;
+        position: relative;
+        left: 58px;
+        font-size: 21px;
+        top: 14px;
+        background: rgba(0, 0, 0, 0)
+    }
+
+}
+
+ 

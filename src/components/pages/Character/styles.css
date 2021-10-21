@@ -1,0 +1,141 @@
+.mymodal {
+  width: 240px;
+  height: 680px;
+  z-index: 3;
+ 
+}
+
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.918);
+  z-index: 3;
+}
+.modalCard
+{
+  width: 255%;
+  height: 58%;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: relative;
+  top: 60%;
+  left: 194%;
+  margin-right: -50%;
+  transform: translate(-50%, -63%);
+  background-color: #fd0200;
+  z-index: 3;
+}
+/* dentro do modal de caracteristicas */
+.img-modal
+{
+  width: 51.8%;
+  margin: 0;
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  margin-right: -50%;
+  border-radius: 24px 40px 40px 24px;
+}
+.img-modalTwo
+{
+ 
+  width: 45.2%;
+  margin: 0;
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  margin-right: -50%;
+  border-radius: 24px 40px 40px 24px;
+
+}
+.img-modalThree
+{
+  width: 52.2%;
+  margin: 0;
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  margin-right: -50%;
+  border-radius: 24px 40px 40px 24px;
+
+}
+
+.title-modal
+{
+  
+  margin: 0;
+  position: relative;
+  color: white;
+  top: -13px;
+  left: 160px;
+  font-family: cursive;
+  font-size: 34px;
+
+}
+
+.h2-modal
+{
+
+  margin: 0;
+  position: relative;
+  color: white;
+  top: -0px;
+  left: 120px;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.p-modal
+{
+
+  margin: 0;
+  position: relative;
+  color: white;
+  top: -0px;
+  left: 160px;
+  font-family: cursive;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  width: 33%;
+}
+
+.evaluation-modal
+{
+
+  margin: 0;
+  position: relative;
+  color: rgb(255 255 255);
+  top: -0px;
+  left: 153px;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.close-modal
+{
+  margin: 0;
+  position: relative;
+  border: #faebd700;
+  top: -0px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0);
+ 
+}
+.img-close
+{
+  width: 9%;
+  margin: 0;
+  position: relative;
+  color: #ebebeb;
+  top: 27px;
+  left: 271px;
+}
+  
