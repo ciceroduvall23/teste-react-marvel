@@ -1,4 +1,4 @@
-const express = require("express")
+/*const express = require("express")
 const { resolve } = require('path')
 const app = express()
 
@@ -16,4 +16,6 @@ app
 .listen(process.env.PORT || 3000, (err) => {
      if (err) {return console.log(err) }
     console.log('Tudo certinho')
-})
+})*/
+
+console.log('Tudo certinho')
