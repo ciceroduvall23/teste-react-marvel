@@ -33,10 +33,9 @@ export default function App() {
         <p className="p-modal">Homem de Ferro 2</p>
         <p className="p-modal">Homem-Formiga</p>
         <p className="p-modal">Capitão América: Guerra Civil</p>
-        <p className="p-modal">Vingadores: Guerra Infinita</p>
+        
        <br></br>
        
-         <h2 className="evaluation-modal">Avaliações dos fãs</h2>
   
         <button className="close-modal" onClick={toggleModal}> 
         <img className="img-close" src={Close}  alt="Logo" />

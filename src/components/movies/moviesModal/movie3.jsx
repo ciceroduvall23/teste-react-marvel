@@ -32,9 +32,7 @@ export default function App() {
         <p className="p-movie">Como filho de Odin, rei dos deuses nórdicos, Thor logo herdará o trono de Asgard de seu idoso pai.</p>
         
        <br></br>
-       
-         <h2 className="evaluation-modal">Avaliações dos fãs</h2>
-  
+         
         <button className="close-modal" onClick={toggleModal}> 
         <img className="img-close" src={Close}  alt="Logo" />
          </button>

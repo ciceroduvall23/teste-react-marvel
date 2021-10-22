@@ -34,10 +34,9 @@ export default function App() {
         <p className="p-modal">Guardiões da Galáxia</p>
         <p className="p-modal">Vingadores - Guerra Infinita</p>
         <p className="p-modal">Vingadores - Ultimado</p>
-        <p className="p-modal">WandaVision</p>
+       
        <br></br>
        
-         <h2 className="evaluation-modal">Avaliações dos fãs</h2>
   
         <button className="close-modal" onClick={toggleModal}> 
         <img className="img-close" src={Close}  alt="Logo" />

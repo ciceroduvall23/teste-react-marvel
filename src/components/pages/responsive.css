@@ -38,19 +38,16 @@
         color: #ffff;
         top: 5px;
     }
-.button-dashboard
-{
-    
-    position: absolute;
-    top: 549px;
-    height: 46px;
-    width: 193px;
-    left: 35%;
-    cursor: pointer;
-    background-color: #27282a;
-    color: #ffff;
-
-}
+    .button-dashboard {
+        position: absolute;
+        top: 503px;
+        height: 46px;
+        width: 193px;
+        left: 40%;
+        cursor: pointer;
+        background-color: #27282a;
+        color: #ffff;
+    }
 
 
 }
@@ -189,18 +186,15 @@
     position: relative;
     top: 23px;
 }
-.button-dashboard
-{
-    
+.button-dashboard {
     position: absolute;
-    top: 549px;
+    top: 555px;
     height: 46px;
     width: 193px;
-    left: 30%;
+    left: 29%;
     cursor: pointer;
     background-color: #27282a;
     color: #ffff;
-
 }
 
 
@@ -258,17 +252,6 @@
         z-index: 4;
     }
 
-    .button-dashboard {
-        position: absolute;
-        top: 608px;
-        height: 46px;
-        width: 193px;
-        left: 28%;
-        cursor: pointer;
-        background-color: #27282a;
-        color: #ffff;
-    }
-
     .button-card {
         border: rgba(255, 255, 255, 0);
         color: #ffffff;
@@ -279,4 +262,64 @@
         background: rgba(0, 0, 0, 0);
     }
 
+ 
+    .title-dashboard {
+        color: #fff;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 32px;
+        letter-spacing: 0;
+        text-transform: none;
+        text-align: center;
+        transform: translate(10px, 168px);
+        z-index: 0;
+    }
+}
+
+@media only screen and (max-width: 360px) and (min-width: 300px)
+{
+
+    .button-navbar {
+        background-color: #00000000;
+        color: white;
+        border: #00ffff00;
+        z-index: 4;
+        position: relative;
+        left: -1%;
+        top: 58px;
+        font-size: 20px;
+        font-family: -webkit-body;
+        padding: 0 8px;
+    }
+
+    .title-dashboard {
+        color: #fff;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: 0;
+        text-transform: none;
+        text-align: center;
+        transform: translate(10px, 177px);
+        z-index: 0;
+    }
+
+    .button-dashboard {
+        position: absolute;
+        top: 466px;
+        height: 46px;
+        width: 193px;
+        left: 23%;
+        cursor: pointer;
+        background-color: #27282a;
+        color: #ffff;
+    }
+
+    .title-h1 {
+        position: absolute;
+        top: -10px;
+        height: 46px;
+        width: 186px;
+        left: 23%;
+}
 }

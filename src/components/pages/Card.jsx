@@ -26,8 +26,8 @@ export default class responsive extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 2000,
+      speed: 5000,
+      autoplaySpeed: 5000,
       cssEase: "linear",
       dots: true,
       infinite: true,
@@ -71,9 +71,9 @@ export default class responsive extends Component {
   <MDBCard   className="grid">
     <img className="CardTwo" src={CardOne}  alt="Logo"   />
       <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardTitle>Homem Aranha</MDBCardTitle>
         <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
+        Depois de ser picado por uma aranha geneticamente modificada em uma demonstração científica,Peter Parker ganha superpoderes.
         </MDBCardText>
         <div>
         <CharacterOne />
@@ -86,9 +86,9 @@ export default class responsive extends Component {
     <MDBCard className="grid">
     <img className="CardTwo" src={CardTwo}  alt="Logo"   />
       <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardTitle>Feiticeira Escarlate</MDBCardTitle>
         <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
+        Feiticeira Escarlate é uma super-heroína que aparece nos quadrinhos americanos publicados pela Marvel.
         </MDBCardText>
         <div>
         <CharacterTwo />
@@ -101,10 +101,9 @@ export default class responsive extends Component {
      <MDBCard className="grid">
     <img className="CardTwo" src={CardThree}  alt="Logo"   />
       <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardTitle>Thanos</MDBCardTitle>
         <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </MDBCardText>
+        Thanos é um personagem fictício, um supervilão das histórias em quadrinhos publicadas pela Marvel.</MDBCardText>
         <div>
         <CharacterThree  />
         </div>
@@ -116,7 +115,7 @@ export default class responsive extends Component {
               <MDBCard className="grid">
     <img className="CardTwo" src={CardFour}  alt="Logo"   />
       <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardTitle>Hulk</MDBCardTitle>
         <MDBCardText>
           Some quick example text to build on the card title and make up the bulk of the card's content.
         </MDBCardText>

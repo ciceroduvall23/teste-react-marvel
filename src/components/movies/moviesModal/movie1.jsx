@@ -30,14 +30,11 @@ export default function App() {
         <img className="img-modalTwo" src={Img}  alt="Logo" />
         <h1 className="title-modal">Homem de ferro</h1>
 
-        <p className="p-movie">  Em um mundo ciente da existência do Homem de Ferro, o inventor bilionário Tony Stark sofre
+        <p className="p-movie">inventor bilionário Tony Stark sofre
          pressão de todos os lados para compartilhar sua tecnologia com as forças armadas.</p>
-     
-        
+      
        <br></br>
        
-         <h2 className="evaluation-modal">Avaliações dos fãs</h2>
-  
         <button className="close-modal" onClick={toggleModal}> 
         <img className="img-close" src={Close}  alt="Logo" />
          </button>

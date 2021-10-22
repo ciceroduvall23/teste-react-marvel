@@ -33,10 +33,9 @@ export default function App() {
         <p className="p-modal">Vingadores - Era de Ultron</p>
         <p className="p-modal">Capitão America - Guerra Civil</p>
         <p className="p-modal">Vingadores - Ultimato</p>
-        <p className="p-modal">WandaVision</p>
+        
        <br></br>
        
-         <h2 className="evaluation-modal">Avaliações dos fãs</h2>
   
         <button className="close-modal" onClick={toggleModal}> 
         <img className="img-close" src={Close}  alt="Logo" />

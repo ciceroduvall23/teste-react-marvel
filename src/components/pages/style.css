@@ -223,14 +223,13 @@ left: 18% !important;
     transform: translate(10px, 214px);
     z-index: 0;
 }
-.button-dashboard
-{
+.button-dashboard {
     border-radius: 10px;
     position: absolute;
-    top: 459px;
+    top: 478px;
     height: 46px;
     width: 193px;
-    left: 44%;
+    left: 46%;
     text-align: center;
     padding-left: 0;
     min-width: 0;
@@ -247,7 +246,6 @@ left: 18% !important;
     cursor: pointer;
     background-color: #27282a;
     color: #ffff;
-
 }
 
 .Card-body

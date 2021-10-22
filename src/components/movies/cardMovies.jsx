@@ -25,8 +25,8 @@ export default class Responsive extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 2000,
+      speed: 5000,
+      autoplaySpeed: 5000,
       cssEase: "linear",
       dots: true,
       infinite: true,
@@ -73,7 +73,7 @@ export default class Responsive extends Component {
         <MDBCardTitle>Homem de ferro</MDBCardTitle>
         <MDBCardText>
         Homem de Ferro é um personagem fictício dos quadrinhos publicados pela Marvel Comics.
-        Tony Stark usa armaduras de alta tecnologia no combate ao crime.
+        Tony Stark usa armaduras de alta tecnologia.
         </MDBCardText>
     
         <div>
@@ -90,7 +90,7 @@ export default class Responsive extends Component {
         <MDBCardTitle>Homem de ferro 2 </MDBCardTitle>
         <MDBCardText>
         Em um mundo ciente da existência do Homem de Ferro, o inventor bilionário Tony Stark sofre
-         pressão de todos os lados para compartilhar sua tecnologia com as forças armadas.
+         pressão de todos os lados.
         </MDBCardText>
     
         <div>

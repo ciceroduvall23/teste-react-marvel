@@ -23,8 +23,8 @@ export default class Responsive extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 2000,
+      speed: 5000,
+      autoplaySpeed: 5000,
       cssEase: "linear",
       dots: true,
       infinite: true,
@@ -70,8 +70,7 @@ export default class Responsive extends Component {
       <MDBCardBody className="Card-body">
         <MDBCardTitle>Thor vikings</MDBCardTitle>
         <MDBCardText>
-        Thor enfrentando vikings sedentos de sangue e amaldiçoados pela imortalidade...
-         Só mesmo Garth Ennis para conceber um enredo tão originalmente bizarro.
+        Thor Vikings é uma ideia brilhante transformada em uma história casual, arco fechado.
         </MDBCardText>
     
         <div>
