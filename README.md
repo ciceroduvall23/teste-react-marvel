@@ -14,3 +14,4 @@ Check src/firebase/config.ts file to name them properly
 
 Then run `npm i` inside project root folder and after that `npm start`
 
+link: https://app-cici-marvel.herokuapp.com/
